@@ -28,6 +28,9 @@ header {
 
 header img {
     margin-right: 5px;
+    /*m opacity: 1; */
+    filter: brihgtness(1.1);  /* 2023-09-25 Retirando fondo blanco de imagenes */
+    mix-blend-mode: multiply; /* retirando fondo blanco */
 }
 
 header span {
