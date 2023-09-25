@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+#	Configure
+#
+# 	Procedimiento para configurar y/o validar la preexistencia de comandos, librerias y/o paquetes para una 
+#	instalacion satisfactoria
+#
+#	Archivos de entrada
+#
+#	Salida 
+#	Archivo log de instalacion (/tmp/log_install.log)
+#	Archivo de errors de instalacion (/tmp/error.log)
+#
+#	lun 25 sep 2023 15:44:09 -05		Juan Pablo Sandoval Rivera
+#
+#
+exit 0
