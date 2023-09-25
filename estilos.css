@@ -114,7 +114,8 @@ footer {
 }
 
 .title span {
-  margin-right: 10px; /* Agrega un espacio entre las letras */
+ /* margin-right: 10px;*/ /* Agrega un espacio entre las letras */
+  margin-right: 2px; /* Agrega un espacio entre las letras */
 }
 
 .logo {
