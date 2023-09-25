@@ -14,4 +14,8 @@
 #	lun 25 sep 2023 15:44:09 -05		Juan Pablo Sandoval Rivera
 #
 #
+[ -f config ] || { 
+    echo -e "\n\t No existe archivo para validar configuracion \"config\"\n"
+    exit -1
+}
 exit 0
