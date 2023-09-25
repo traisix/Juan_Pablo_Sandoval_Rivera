@@ -12,27 +12,26 @@ li {
 
 /* Estilos generales */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #5cd2e6;
+    font-family: Arial, sans-serif;
+    background-color: #5cd2e6;
 }
 
 h1 {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 header {
-  background-color: #5cd2e6;
-  text-align: center;
-  padding: 20px;
+    background-color: #5cd2e6;
+    text-align: center;
+    padding: 20px;
 }
 
 header img {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 header span {
   color: red;
-  //font-size: 120em;
   font-size: 10em;
   font-weight: bold;
 }
