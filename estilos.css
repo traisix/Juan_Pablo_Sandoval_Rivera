@@ -1,0 +1,131 @@
+/* Resetear estilos predeterminados del navegador */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5cd2e6;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+header {
+    background-color: #5cd2e6;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    margin-right: 5px;
+    /*m opacity: 1; */
+    /* filter: brihgtness(1.1); */  /* 2023-09-25 Retirando fondo blanco de imagenes */
+    /* mix-blend-mode: multiply; */ /* retirando fondo blanco */
+}
+
+header span {
+  color: red;
+  font-size: 10em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+footer {
+  background-color: #03C988;
+  text-align: center;
+  padding: 10px;
+  margin-top: 350px;
+  width: 100%;
+  position: relative;
+  border-top: 1px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  justify-content: center; /* Para centrar horizontalmente */
+  align-items: center; /* Para centrar verticalmente */
+  list-style: none;
+  padding: 10px;
+}
+
+.breadcrumb li {
+  display: inline;
+  font-size: 30px;
+  list-style-type: square;
+}
+
+.breadcrumb li::after {
+  content: " / ";
+  padding: 0px 10px;
+}
+
+.breadcrumb li:last-child::after {
+  content: "";
+  padding: 0px 10px;
+}
+
+.shadow-drop-center {
+  animation: shadow-drop-center 0.4s linear both;
+}
+@keyframes shadow-drop-center {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    box-shadow: 0 0 20px 0 rgba(0, 161, 161, 0);
+  }
+}
+
+.title {
+  display: flex; /* Usa flexbox para alinear elementos horizontalmente */
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center;
+}
+
+.title span {
+ /* margin-right: 10px;*/ /* Agrega un espacio entre las letras */
+  margin-right: 2px; /* Agrega un espacio entre las letras */
+}
+
+.logo {
+  background-color: #3085C3;
+  margin-left: 50px; /* Agrega un espacio entre las imágenes */
+  align-items: left;
+}
+
+.logo_traisix {
+   margin-right: 2px; /* Agrega un espacio entre las imágenes */
+   align-items: right; 
+}
+
