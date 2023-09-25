@@ -87,8 +87,8 @@ footer {
   padding: 0px 10px;
 }
 
-.breadcrumb li.last-child::after {
-  content: "   ";
+.breadcrumb li:last-child::after {
+  content: "";
   padding: 0px 10px;
 }
 
